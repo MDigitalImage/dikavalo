@@ -20,12 +20,12 @@ body {
   position: absolute;
   font-size: 6vmin;
   right: 3vmin;
-  top: 3vmin;
+  top: 0vmin;
 }
 
 .start-screen {
   position: absolute;
-  font-size: 5vmin;
+  font-size: 4vmin;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -46,14 +46,20 @@ body {
 .dino {
   --bottom: 0;
   position: absolute;
-  left: 1%;
-  height: 30%;
+  left: 18%;
+  height: 35%;
   bottom: calc(var(--bottom) * 1%);
 }
 
 .cactus {
   position: absolute;
   left: calc(var(--left) * 1%);
-  height: 30%;
+  height: 25%;
   bottom: 0;
+}
+
+.heli {
+  position: absolute;
+  left: 1%;
+  height: 14%;
 }
